@@ -13,11 +13,13 @@ const Products = () => {
           />
           <div className="card-details">
             <h3 className="card-title">Shoe</h3>
-            <section className="card-revies">
-              <AiFillStar className="rating-star " />
-              <AiFillStar className="rating-star " />
-              <AiFillStar className="rating-star " />
-              <AiFillStar className="rating-star " />
+            <section className="card-reviews">
+              <div className="flex space-x-1">
+                <AiFillStar className="rating-star " />
+                <AiFillStar className="rating-star " />
+                <AiFillStar className="rating-star " />
+                <AiFillStar className="rating-star " />
+              </div>
               <span className="total-reviews">4</span>
             </section>
             <section className="card-price">
