@@ -28,7 +28,7 @@ const Products = () => {
               </div>
 
               <div className="bag">
-                <BsFillBagHeartFill />
+                <BsFillBagHeartFill className="bag-icon" />
               </div>
             </section>
           </div>
