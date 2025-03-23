@@ -1,5 +1,7 @@
 import "./Price.css";
 
-export const Price = () => {
+const Price = () => {
   return <div>Price</div>;
 };
+
+export default Price;
